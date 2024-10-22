@@ -95,18 +95,18 @@ public class MainActivity extends AppCompatActivity {
             if(yourChoice == 0 && computerChoice == 2) {
                 wins++;
                 textViewResult.setText("Eredmény: Ember: " + wins + " Computer: " + losses);
-                Toast.makeText(MainActivity.this, "Nyertél a kört!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Nyerted a kört!", Toast.LENGTH_SHORT).show();
             }
             else if(yourChoice == 1 && computerChoice == 0) {
                 wins++;
                 textViewResult.setText("Eredmény: Ember: " + wins + " Computer: " + losses);
-                Toast.makeText(MainActivity.this, "Nyertél a kört!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Nyerted a kört!", Toast.LENGTH_SHORT).show();
 
             }
             else if(yourChoice == 2 && computerChoice == 1) {
                 wins++;
                 textViewResult.setText("Eredmény: Ember: " + wins + " Computer: " + losses);
-                Toast.makeText(MainActivity.this, "Nyertél a kört!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Nyerted a kört!", Toast.LENGTH_SHORT).show();
 
             }
             else if(yourChoice == computerChoice) {
